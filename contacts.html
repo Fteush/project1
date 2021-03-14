@@ -18,9 +18,9 @@
                             <div class="header-brand">Old-pixel</div>
                             <div class="header-logo"></div>
                             <nav class="header-nav">
-                                <a class="header-nav-link active" href="index.html">Главная</a>
+                                <a class="header-nav-link" href="index.html">Главная</a>
                                 <a class="header-nav-link" href="about.html">О сайте</a>
-                                <a class="header-nav-link" href="contacts.html">Контакты</a>
+                                <a class="header-nav-link active" href="contacts.html">Контакты</a>
                             </nav>
                         </div>    
                     </div> <!--/.Container-->
@@ -31,15 +31,34 @@
         <div class="container">
             <main class="content">
                 <div class="content-header">
-                <h2 class="subtitle">Добро пожаловать</h2>
-                <h1 class="title">На сайт <span>"Старый пиксель"</span></h1>
-                </div>
+                <h1 class="title">Напишите мне <span>сообщение</span></h1>
                     <div class="text">
-                        <p>Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца.</p>
+                        <p>Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации.</p>
                     </div>
-                    <a class="btn" href="#">Нажми меня</a>
+                </div>
 
-                </main>
+                <form class="form" action="/" method="post">
+                    <div class="form-group">
+                    <input class="input" type="text" placeholder="Имя">
+                    </div>
+                   
+                    <div class="form-group">
+                    <input class="input" type="mailto" placeholder="Емайл">
+                    </div>
+                    
+                    <div class="form-group">
+                    <input class="input" type="tel" placeholder="Тел">
+                    </div>
+
+                    <div class="form-group">
+                    <textarea class="textarea" name="text" placeholder="Сообщение"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                    <button class="btn btn-full" type="submit">Отправить сообщение</button>
+                    </div>
+                </form>
+            </main>
         </div>
 
         <!--Footer-->
