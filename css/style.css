@@ -26,8 +26,9 @@ p {
 
 .container {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1030px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 
@@ -118,7 +119,9 @@ margin-bottom: 70px;
 ===================== */
 
 .content {
-    width: 467px;
+    height: 100%;
+    width: 100%;
+    max-width: 467px;
 }
 
 .subtitle {
@@ -274,4 +277,59 @@ textarea {
 textarea::placeholder {
 
     color: #fff;
+}
+
+
+/* Media 
+====================*/
+
+@media (max-width: 767px) {
+
+    .header-logo {
+        display: none;
+    }
+
+    .header-brand {
+        font-size: 1.2rem;
+    }
+    .header {
+        margin-bottom: 5px;
+    }
+
+    .content {
+        margin-bottom: 15px;
+    
+    }
+    .page {
+        min-height: 100vh;
+        height: auto;
+        
+    }
+
+    .footer {
+        position: static;
+    }
+}
+
+@media (max-width: 375px) {
+    
+    
+   
+    
+    
+    .contacts-link:last-child::after {
+        display: none;
+    }
+    .header-inner {
+        flex-direction: column;
+    }
+
+    
+
+}
+
+@media (max-width: 1000px) {
+    .sonic {
+        display: none;
+    }
 }
