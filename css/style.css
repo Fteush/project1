@@ -296,7 +296,12 @@ textarea::placeholder {
         margin-bottom: 5px;
     }
 
+    .form {
+       margin: 0 auto;
+    }
+
     .content {
+        max-width: none;
         margin-bottom: 15px;
     
     }
@@ -312,19 +317,13 @@ textarea::placeholder {
 }
 
 @media (max-width: 375px) {
-    
-    
-   
-    
-    
+        
     .contacts-link:last-child::after {
         display: none;
     }
     .header-inner {
         flex-direction: column;
     }
-
-    
 
 }
 
